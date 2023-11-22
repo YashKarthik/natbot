@@ -11,6 +11,12 @@ from sys import argv, exit, platform
 import openai
 import os
 
+"""
+Next steps:
+    - Internal monologue 
+    https://github.com/Globe-Engineer/agents/blob/main/reasoners/internal_monologue.py
+"""
+
 quiet = False
 if len(argv) >= 2:
     if argv[1] == '-q' or argv[1] == '--quiet':
